@@ -1,0 +1,1031 @@
+
+/*notes:1 använd bara top och left. använd ej exp (margin: 30% 20px 40% 10px;)
+2 försök göra koden så lätt läslig som möjligt.
+3 för att simplifiera allt beskriv sakerna som exempel skriva /colors/ där allting om själva inehållets design */
+
+
+
+
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+
+
+.idk {
+  /*colors*/
+   background: url(indu.jpg);
+   background-size: cover;
+   color: #fff;
+   color: black;
+  /*colors*/
+
+   /*shapes*/
+    border-radius: 6px;
+   display: block;
+   border: 2px solid;
+   padding: 6.6%  49.95%;
+   /*///shapes///*/
+
+  /*position*/
+  position: absolute;
+  left: -1px;
+  top: 0px;
+  max-width: 25%;
+  max-height: 2.9%;
+  /*///positions///*/
+  }
+  .idk1 {
+      /*colors*/
+     background: #7F2C2C;
+     border-radius: 6px;
+
+     color: black;
+       /*///colors///*/
+
+    /*shapes*/
+     display: block;
+     border: 2px solid;
+      padding: 18% 35.2%;
+
+    /*///shapes///*/
+
+    /*position*/
+    position: absolute;
+    left: -1px;
+    top: 140px;
+    text-align: center;
+
+     /*///positions///*/
+    }
+
+
+
+
+
+
+
+
+/*koder för mitten delen och bilderna på sidan*/
+.main {
+
+/*ta ej bort buggar upp burger menyn.*/
+
+ padding: 2.9% 5%;
+ left: 30px;
+ top: 100px;
+
+
+}
+.side {
+  /*colors*/
+ background-image: url("back.jpg");
+ background-size: cover;
+ color: #fff;
+ color: black;
+ /*///colors///*/
+
+ /*shapes*/
+ border-radius: 6px;
+ display: block;
+ border: 2px solid;
+  padding: 30% 13%;
+ /*///shapes///*/
+
+ /*position*/
+ position: fixed;
+ left: 14%;
+ top: -85px;
+ /*lat ta ej bort margin*/
+ margin: 80px 20% 5px 59.7%;
+ text-align: center;
+ /*///positions///*/
+}
+.side2 {
+/*colors*/
+ background-image: url("damn.jpg");
+ background-size: cover;
+ color: #fff;
+ color: black;
+ /*///colors///*/
+
+ /*shapes*/
+ border-radius: 6px;
+ display: block;
+ border: 2px solid;
+ padding: 30% 12.25%;
+ /*///shapes///*/
+
+ /*position*/
+ position: fixed;
+ left: 270px;
+ top: -89px;
+ margin: 80px 20% 5px -14.5%;
+ text-align: center;
+ /*///positions///*/
+}
+
+
+.ok1 {
+  /*colors*/
+  background: #7F2C2C;
+  color: #fff;
+
+  /*///colors///*/
+
+  /*shapes*/
+
+  display: block;
+
+  padding: 58% 27.5%;
+  /*///shapes///*/
+
+  /*position*/
+ position: absolute;
+ left: 422px;
+ top: 630px;
+ text-align: center;
+  /*///positions///*/
+}
+
+  .ok2 {
+     /*colors*/
+     background: url(charlie.jpg);
+     background-size: contain;
+     color: #fff;
+     color: black;
+     /*///colors///*/
+
+     /*shapes*/
+     border-radius: 6px;
+     display: block;
+     border: 2px solid;
+     padding: 10% 8%;
+     /*///shapes///*/
+
+     /*position*/
+    position: absolute;
+    left: 1163px;
+    top: 140px;
+    text-align: center;
+     /*///positions///*/
+    }
+    .ok3 {
+      /*colors*/
+       background: #7F2C2C;
+       color: #fff;
+       color: black;
+      /*colors*/
+
+       /*shapes*/
+        border-radius: 6px;
+       display: block;
+       border: 2px solid;
+       padding: 2%  18%;
+       /*///shapes///*/
+
+      /*position*/
+      position: absolute;
+      left: 420px;
+      top: 0px;
+      max-width: 25%;
+      max-height: 2.9%;
+      /*///positions///*/
+      }
+      .ok4 {
+          /*colors*/
+         background: #7F2C2C;
+         border-radius: 6px;
+
+         color: black;
+           /*///colors///*/
+
+        /*shapes*/
+         display: block;
+         border: 2px solid;
+          padding: 16.3% 28.5%;
+
+        /*///shapes///*/
+
+        /*position*/
+        position: absolute;
+        left: -1px;
+        top: 140px;
+        text-align: center;
+
+         /*///positions///*/
+        }
+        .ok5 {
+          /*colors*/
+           background: #7F2C2C;
+
+           color: #fff;
+           color: black;
+           /*///colors///*/
+
+           /*shapes*/
+           display: block;
+           border: 2px solid;
+           padding: 5% 14.65%;
+           /*///shapes///*/
+
+           /*position*/
+          position: absolute;
+          left: 740px;
+          top: 520px;
+
+          text-align: center;
+          /*///positions///*/
+          }
+          .ok6 {
+            /*colors*/
+             background: #7F2C2C;
+
+             color: #fff;
+             color: black;
+             /*///colors///*/
+
+             /*shapes*/
+             display: block;
+             border: 2px solid;
+             padding: 5% 35.13%;
+             /*///shapes///*/
+
+             /*position*/
+            position: absolute;
+            left: 0px;
+            top: 520px;
+
+            text-align: center;
+            /*///positions///*/
+            }
+
+            .ok7 {
+              /*colors*/
+               background: #7F2C2C;
+
+               color: #fff;
+               color: black;
+               /*///colors///*/
+
+               /*shapes*/
+               display: block;
+               border: 2px solid;
+               padding: 18% 1.5%;
+               /*///shapes///*/
+
+               /*position*/
+              position: absolute;
+              left: 1015px;
+              top: 140px;
+
+              text-align: center;
+              /*///positions///*/
+              }
+
+   .yes2 {
+     /*colors*/
+     background: url(dr.jpg);
+     background-size: cover;
+
+     color: #fff;
+     color: black;
+     /*///colors///*/
+
+     /*shapes*/
+     border-radius: 6px;
+     display: block;
+     border: 2px solid;
+     padding: 13% 15%;
+     /*///shapes///*/
+
+     /*position*/
+    position: absolute;
+    left: 730px;
+    top: 520px;
+    text-align: center;
+     /*///positions///*/
+   }
+
+
+
+
+              .yes3 {
+                /*colors*/
+                background: #7F2C2C;
+                color: #fff;
+                color: black;
+                /*///colors///*/
+
+                /*shapes*/
+                border-radius: 6px;
+                display: block;
+                border: 2px solid;
+                padding: 13% 35.2%;
+                /*///shapes///*/
+
+                /*position*/
+               position: absolute;
+               left: 0px;
+               top: 520px;
+               text-align: center;
+                /*///positions///*/
+              }
+
+
+                .yes4 {
+                /*colors*/
+                background: white;
+                color: #fff;
+                color: black;
+                /*///colors///*/
+
+                /*shapes*/
+                border-radius: 6px;
+                display: block;
+                border: 2px solid;
+                padding: 9% 45%;
+                /*///shapes///*/
+
+                /*position*/
+                position: absolute;
+                left: 50px;
+                top: 950px;
+                text-align: center;
+                /*///positions///*/
+                }
+
+                .yes5 {
+                /*colors*/
+                background: white;
+                color: #fff;
+                color: black;
+                /*///colors///*/
+
+                /*shapes*/
+                border-radius: 6px;
+                display: block;
+                border: 2px solid;
+                padding: 11% 22%;
+                /*///shapes///*/
+
+                /*position*/
+                position: absolute;
+                left: 50px;
+                top: 1180px;
+                text-align: center;
+                /*///positions///*/
+                }
+                .yes6 {
+                /*colors*/
+                background: white;
+                color: #fff;
+                color: black;
+                /*///colors///*/
+
+                /*shapes*/
+                border-radius: 6px;
+                display: block;
+                border: 2px solid;
+                padding: 11% 22%;
+                /*///shapes///*/
+
+                /*position*/
+                position: absolute;
+                left: 535px;
+                top: 1180px;
+                text-align: center;
+                /*///positions///*/
+                }
+
+
+
+
+
+
+                .yes11{
+                  /*colors*/
+                  background: gray;
+                  color: #fff;
+                  color: black;
+                  /*///colors///*/
+
+                  /*shapes*/
+                  border-radius: 6px;
+                  display: block;
+                  border: 2px solid;
+                  padding: 1.5% 41.4%;
+                  /*///shapes///*/
+
+                  /*position*/
+                  position: absolute;
+                  left: 0px;
+                  top: 850px;
+                  text-align: center;
+                  /*///positions///*/
+                }
+
+                .yes12{
+                  /*colors*/
+                  background: gray;
+                  color: #fff;
+                  color: black;
+                  /*///colors///*/
+
+                  /*shapes*/
+                  border-radius: 6px;
+                  display: block;
+                  border: 2px solid;
+                  padding: 1.5% 38.8%;
+                  /*///shapes///*/
+
+                  /*position*/
+                  position: absolute;
+                  left: 0px;
+                  top: 1450px;
+                  text-align: center;
+                  /*///positions///*/
+                }
+                .yes13{
+                  /*colors*/
+                  background: white;
+                  color: #fff;
+                  color: black;
+                  /*///colors///*/
+
+                  /*shapes*/
+                  border-radius: 6px;
+                  display: block;
+                  border: 2px solid;
+                  padding: 22% 22%;
+                  /*///shapes///*/
+
+                  /*position*/
+                  position: absolute;
+                  left: 50px;
+                  top: 1600px;
+                  text-align: center;
+                  /*///positions///*/
+                }
+                .yes14{
+                  /*colors*/
+                  background: white;
+                  color: #fff;
+                  color: black;
+                  /*///colors///*/
+
+                  /*shapes*/
+                  border-radius: 6px;
+                  display: block;
+                  border: 2px solid;
+                  padding: 11% 45.3%;
+                  /*///shapes///*/
+
+                  /*position*/
+                  position: absolute;
+                  left: 50px;
+                  top: 2250px;
+                  text-align: center;
+                  /*///positions///*/
+                }
+                .yes15{
+                  /*colors*/
+                  background: url(bon.jpg);
+                  background-size: contain;
+                  color: #fff;
+                  color: black;
+                  /*///colors///*/
+
+                  /*shapes*/
+                  border-radius: 6px;
+                  display: block;
+                  border: 2px solid;
+                  padding: 30% 22%;
+                  /*///shapes///*/
+
+                  /*position*/
+                  position: absolute;
+                  left: 540px;
+                  top: 1598px;
+                  text-align: center;
+                  /*///positions///*/
+                }
+                .yes16{
+                  /*colors*/
+                  background: gray;
+                  color: #fff;
+                  color: black;
+                  /*///colors///*/
+
+                  /*shapes*/
+                  border-radius: 6px;
+                  display: block;
+                  border: 2px solid;
+                  padding: 4% 4%;
+                  /*///shapes///*/
+
+                  /*position*/
+                  position: absolute;
+                  left: 50px;
+                  top: 2113px;
+                  text-align: center;
+                  /*///positions///*/
+                }
+                .yos1{
+                  /*colors*/
+                  background: white;
+                  color: #fff;
+                  color: black;
+                  /*///colors///*/
+
+                  /*shapes*/
+                  border-radius: 6px;
+                  display: block;
+                  border: 2px solid;
+                  padding: 13% 21%;
+                  /*///shapes///*/
+
+                  /*position*/
+                  position: absolute;
+                  left: 570px;
+                  top: 2500px;
+                  text-align: center;
+                  /*///positions///*/
+                }
+                .yos2{
+                  /*colors*/
+                  background: url(ed.jpg);
+                  background-size: cover;
+                  background-position: left -50px;
+                  color: #fff;
+                  color: black;
+                  /*///colors///*/
+
+                  /*shapes*/
+                  border-radius: 6px;
+                  display: block;
+                  border: 2px solid;
+                  padding: 13% 24%;
+                  /*///shapes///*/
+
+                  /*position*/
+                  position: absolute;
+                  left: 50px;
+                  top: 2503px;
+                  text-align: center;
+                  /*///positions///*/
+                }
+
+                /* width */
+                ::-webkit-scrollbar {
+                  width: 10px;
+                }
+
+                /* Track */
+                ::-webkit-scrollbar-track {
+                  background: #f1f1f1;
+                }
+
+                /* Handle */
+                ::-webkit-scrollbar-thumb {
+                  background: #888;
+                }
+
+                /* Handle on hover */
+                ::-webkit-scrollbar-thumb:hover {
+                  background: #555;
+                }
+
+
+/*ändra helst inget*/
+#menuToggle
+{
+  display: block;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0;
+  z-index: 2;
+
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background: black;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(1128deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu
+{
+
+  position: absolute;
+  width: 100px;
+  margin: -98px 0 0 -60px;
+  padding: 50px;
+  padding-top: 125px;
+
+  background: url(donkey.jpg);
+  background-position: cover;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+
+
+
+/*ändra helst inget*/
+#menuToggle2
+{
+  display: block;
+  position: fixed;
+  top: 47px;
+  left: 80px;
+
+
+
+  z-index: 1;
+
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle2 input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+
+  cursor: pointer;
+
+  opacity: 0;
+  z-index: 2;
+
+  -webkit-touch-callout: none;
+}
+
+
+#menuToggle2 span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+
+  background: black;
+  border-radius: 3px;
+
+  z-index: 1;
+
+  transform-origin: 4px 0px;
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle2 span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle2 span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+
+#menuToggle2 input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(1128deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+#menuToggle2 input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+
+#menuToggle2 input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+#menu2
+{
+  position: absolute;
+  width: 100px;
+
+
+  margin: -68px 0 0 -90px;
+  padding: 50px;
+  padding-top: 125px;
+  opacity: 1;
+
+  background: url(sweet.jpg);
+  background-position: cover;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+
+
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0%);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu2 li
+{
+
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+#menuToggle2 input:checked ~ ul
+{
+  transform: none;
+}
+
+
+
+
+
+.yo{
+  /*colors*/
+  background: gray;
+  color: #fff;
+  color: black;
+  /*///colors///*/
+
+  /*shapes*/
+  border-radius: 6px;
+  display: block;
+  border: 2px solid;
+  padding: 1% 1%;
+  /*///shapes///*/
+
+  /*position*/
+position: absolute;
+ left: 325px;
+ top: -120px;
+ text-align: center;
+  /*///positions///*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.p{
+  top: 5px;
+  left: 10px;
+  padding: 5% -2%;
+  position: absolute;
+  text-align: left;
+
+}
+
+.p2{
+  top: 180px;
+  left: 10px;
+  padding: 6% -2%;
+  position: absolute;
+  text-align: left;
+}
+
+.p3{
+  top: 420px;
+  left: 340px;
+  padding: 6% -2%;
+  position: absolute;
+  text-align: left;
+}
+
+.p4{
+  top: 380px;
+  left: 10px;
+  width: 700px;
+  text-align: left;
+
+
+  position: absolute;
+}
+
+.p5{
+  top: 820px;
+  left: 55px;
+  width: 950px;
+  text-align: left;
+
+
+  position: absolute;
+}
+.p6{
+  top: 1750px;
+  left: 560px;
+  width: 400px;
+  text-align: left;
+
+
+  position: absolute;
+  }
+.p7{
+  top: 820px;
+  left: 50px;
+  width: 950px;
+  text-align: center;
+
+
+  position: absolute;
+}
+
+.p8{
+  top: 1050px;
+  left: 60px;
+  width: 450px;
+  text-align: left;
+
+
+  position: absolute;
+}
+.p9{
+  top: 2070px;
+  left: 80px;
+  width: 350px;
+  text-align: left;
+
+
+  position: absolute;
+}
+.p10{
+  top: 1050px;
+  left: 550px;
+  width: 450px;
+  text-align: left;
+
+
+  position: absolute;
+}
+
+
+
+.p11{
+  top: 1670px;
+  left: 100px;
+  width: 850px;
+  text-align: left;
+
+
+  position: absolute;
+}.p12{
+  top: 1470px;
+  left: 60px;
+  width: 450px;
+  text-align: left;
+
+
+  position: absolute;
+}.p13{
+  top: 2130px;
+  left: 70px;
+  width: 900px;
+  text-align: left;
+
+
+  position: absolute;
+}
+
+.p14{
+  top: 2370px;
+  left: 580px;
+  width: 420px;
+  text-align: left;
+
+
+  position: absolute;
+}
